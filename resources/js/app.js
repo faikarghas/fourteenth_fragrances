@@ -31,4 +31,8 @@ $(document).ready(function (params) {
         dots:false,
         infinite: false
     })
+
+    $('.slider-detail-product').slick({
+        dots: false
+    })
 })

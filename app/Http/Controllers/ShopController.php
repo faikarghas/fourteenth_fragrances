@@ -15,4 +15,12 @@ class ShopController extends Controller
         return view('web.shop.index',$data);
     }
 
+    public function detail($id){
+
+        $data = [
+        ];
+
+        return view('web.shop.detail',$data);
+    }
+
 }

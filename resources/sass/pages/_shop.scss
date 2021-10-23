@@ -51,7 +51,7 @@ main[page="shop"]{
                         }
                     }
                     .img-display{
-    
+
                     }
                     .img-on-hover{
                         position: absolute;
@@ -76,6 +76,111 @@ main[page="shop"]{
                     }
                 }
             }
+        }
+    }
+}
+
+main[page="detail-product"]{
+    margin-top: 5rem;
+    .section__first{
+        padding: 5rem;
+        .product-img{
+            height: 633px;
+            width: 633px;
+            img{
+                width: 100%;
+                height: 100%;
+            }
+        }
+        .product-desc{
+            padding: 6rem 0rem 6rem 10rem;
+            h1{
+                margin-bottom: 3rem;
+            }
+            .price-tag{
+                font-size: 1.4rem;
+                margin-bottom: 0;
+                margin-bottom: 3rem;
+            }
+            .description{
+                margin-bottom: 3rem;
+            }
+            ul{
+                margin-bottom: 3rem;
+            }
+            .quantity{
+                display: flex;
+                flex-direction: column;
+                margin-bottom: 3rem;
+                label{
+                    margin-bottom: 1rem;
+                }
+                input{
+                    width: 85px;
+                    height: 70px;
+                    border: 1px solid lightgray;
+                    font-size: 1.6rem;
+                    padding: 2rem;
+                }
+            }
+            .btn-add-to-cart{
+                width: 100%;
+                height: 55px;
+                border: 3px solid #070707;
+                background-color: white;
+                color: #070707;
+                font-size: 1.6rem;
+                font-family: "Futura-Medium";
+                transition: 0.3s all linear;
+                &:hover{
+                    background-color: #070707;
+                    color: white;
+                }
+            }
+        }
+    }
+
+    .section__second{
+        padding: 5rem;
+        .product__ingredients{
+            &-title{
+                margin-bottom: 4rem;
+                font-size: 2.7rem;
+            }
+            &-desc{
+                display: flex;
+                .pr-left{
+                    width: 40%;
+                    padding-top: 4rem;
+                    border-top: 1px solid #070707;
+                    margin-right: 40px;
+
+                    ul{
+                        padding: 0;
+                        margin: 0;
+                        margin-bottom: 2rem;
+                        li{
+                            list-style: none;
+                        }
+                    }
+
+                    a{
+                        margin-top: 2rem;
+                        color: #070707;
+                    }
+                }
+                .pr-right{
+                    width: 40%;
+                    padding-top: 4rem;
+                    border-top: 1px solid #070707;
+                }
+            }
+        }
+
+        .product__img{
+            display: flex;
+            align-items: flex-end;
+            justify-content: end;
         }
     }
 }

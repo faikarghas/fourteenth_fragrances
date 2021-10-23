@@ -18,4 +18,5 @@ use App\Http\Controllers\ShopController;
 
 Route::get('/',[HomeController::class,'index'])->name('home');
 Route::get('/shop',[ShopController::class,'index'])->name('shop');
+Route::get('/shop/{id}',[ShopController::class,'detail'])->name('shop-detail');
 

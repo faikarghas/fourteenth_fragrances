@@ -11,7 +11,7 @@
                 </div>
                 <div class="col-6">
                     <div class="header__top-bar--center">
-                        <p>Fourteenth Fragrances</p>
+                        <a href="{{route('home')}}">Fourteenth Fragrances</a>
                     </div>
                 </div>
                 <div class="col-3">
