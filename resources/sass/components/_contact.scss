@@ -1,0 +1,93 @@
+.contact__wrapper{
+    padding: 15rem 0;
+    position: relative;
+    @include respond(down-tab-port){
+        padding: 3rem 4rem;
+    }
+    .bg-contact{
+        position: absolute;
+        right: 0;
+        top: 0;
+        width: 70%;
+        height: 100%;
+        background-color: rgb(243, 243, 243);
+        z-index: -1;
+        @include respond(down-tab-port){
+            width: 100%;
+        }
+    }
+    h3{
+        font-size: 2.5rem;
+        font-weight: 900;
+        margin-bottom: 2rem;
+    }
+    .contact__wrapper-r{
+        display: flex;
+        &-info{
+            position: relative;
+            width: 50%;
+            padding: 0 70px;
+            .loc_img{
+                position: absolute;
+                top: 0;
+                left: 30px;
+            }
+            @include respond(down-tab-port){
+                padding: 0;
+                width: 100%;
+            }
+            li{
+                list-style: none;
+                p{
+                    font-size: 1.4rem;
+                }
+            }
+        }
+        &-form{
+            width: 50%;
+            @include respond(down-tab-port){
+                width: 100%;
+            }
+            input{
+                border-radius: 10px;
+                height: 30px;
+                margin-bottom: 5px;
+                color: black;
+                font-weight: 800;
+                padding-left: 2rem;
+                border: none;
+                &::placeholder{
+                    color: black;
+                    font-weight: 800;
+                }
+            }
+            select{
+                border-radius: 10px;
+                height: 30px;
+                margin-bottom: 5px;
+                color: black;
+                font-weight: 800;
+                padding-left: 2rem;
+                border: none;
+                &::placeholder{
+                    color: black;
+                    font-weight: 800;
+                }
+            }
+            button{
+                width: 100%;
+                height: 30px;
+                border-radius: 10px;
+                background-color: $color_green;
+                box-shadow: none;
+                border: none;
+                font-weight: 800;
+                font-size: 1.2rem;
+                letter-spacing: 2px;
+                &:hover{
+                    background-color: $color_green;
+                }
+            }
+        }
+    }
+}
