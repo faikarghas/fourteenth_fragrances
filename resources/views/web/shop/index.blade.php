@@ -40,20 +40,109 @@
 @section('main')
 <main page="shop">
     <section class="section__first">
-        <div class="content_wrapper">
-            <div class="content_wrapper-left">
-                <div class="content-text">
-                    <p class="content-title">High Performance Botanical Skincare</p>
-                    <a class="btn-black-fr">SHOP</a>
-                    <img src="https://source.unsplash.com/random/300x357" alt="banner" srcset="" width="100%">
+        <div class="container-fluid g-0">
+            <div class="row g-0">
+                <div class="col-12">
+                    <div class="shop__header">
+                        <h3>SHOP</h3>
+                        <ul>
+                            <li><a href="">Body</a></li>
+                            <li><a href="">Face</a></li>
+                            <li><a href="">Hair</a></li>
+                            <li><a href="">Home</a></li>
+                            <li><a href="">Kits</a></li>
+                            <li><a href="">Supplements</a></li>
+                        </ul>
+                    </div>
                 </div>
-            </div>
-            <div class="content_wrapper-right">
-                <div class="content-img-1">
-                    <img src="https://source.unsplash.com/random/200x244" alt="banner" srcset="">
-                </div>
-                <div class="content-img-2">
-                    <img src="https://source.unsplash.com/random/420x520" alt="banner" srcset="">
+                <div class="col-12">
+                    <div class="shop__list">
+                    <div class="container-fluid g-0">
+                        <div class="row g-0">
+                            <div class="col-12 col-md-4">
+                                <a class="shop_item">
+                                    <div class="shop_item-img">
+                                        <picture class="img-display">
+                                            <source media="(min-width:650px)" srcset="https://source.unsplash.com/random/400x531">
+                                            <source media="(min-width:465px)" srcset="https://source.unsplash.com/random/400x531">
+                                            <img  src="https://source.unsplash.com/random/400x531" alt="banner" srcset="">
+                                        </picture>
+                                        <picture class="img-on-hover">
+                                            <source media="(min-width:650px)" srcset="https://source.unsplash.com/random/400x534">
+                                            <source media="(min-width:465px)" srcset="https://source.unsplash.com/random/400x534">
+                                            <img  src="https://source.unsplash.com/random/400x534" alt="banner" srcset="">
+                                        </picture>
+                                    </div>
+                                    <div class="shop_item-tag">
+                                        <p class="title-tag">Body Wash</p>
+                                        <p class="price-tag">$50</p>
+                                    </div>
+                                </a>
+                            </div>
+                            <div class="col-12 col-md-4">
+                                <a class="shop_item">
+                                    <div class="shop_item-img">
+                                        <picture class="img-display">
+                                            <source media="(min-width:650px)" srcset="https://source.unsplash.com/random/400x539">
+                                            <source media="(min-width:465px)" srcset="https://source.unsplash.com/random/400x531">
+                                            <img  src="https://source.unsplash.com/random/400x531" alt="banner" srcset="">
+                                        </picture>
+                                        <picture class="img-on-hover">
+                                            <source media="(min-width:650px)" srcset="https://source.unsplash.com/random/400x533">
+                                            <source media="(min-width:465px)" srcset="https://source.unsplash.com/random/400x534">
+                                            <img  src="https://source.unsplash.com/random/400x534" alt="banner" srcset="">
+                                        </picture>
+                                    </div>
+                                    <div class="shop_item-tag">
+                                        <p class="title-tag">Body Wash</p>
+                                        <p class="price-tag">$50</p>
+                                    </div>
+                                </a>
+                            </div>
+                            <div class="col-12 col-md-4">
+                                <a class="shop_item">
+                                    <div class="shop_item-img">
+                                        <picture class="img-display">
+                                            <source media="(min-width:650px)" srcset="https://source.unsplash.com/random/400x537">
+                                            <source media="(min-width:465px)" srcset="https://source.unsplash.com/random/400x531">
+                                            <img  src="https://source.unsplash.com/random/400x535" alt="banner" srcset="">
+                                        </picture>
+                                        <picture class="img-on-hover">
+                                            <source media="(min-width:650px)" srcset="https://source.unsplash.com/random/400x533">
+                                            <source media="(min-width:465px)" srcset="https://source.unsplash.com/random/400x534">
+                                            <img  src="https://source.unsplash.com/random/400x537" alt="banner" srcset="">
+                                        </picture>
+                                    </div>
+                                    <div class="shop_item-tag">
+                                        <p class="title-tag">Body Wash</p>
+                                        <p class="price-tag">$50</p>
+                                    </div>
+                                </a>
+                            </div>
+                            <div class="col-12 col-md-4">
+                                <a class="shop_item">
+                                    <div class="shop_item-img">
+                                        <picture class="img-display">
+                                            <source media="(min-width:650px)" srcset="https://source.unsplash.com/random/400x531">
+                                            <source media="(min-width:465px)" srcset="https://source.unsplash.com/random/400x531">
+                                            <img  src="https://source.unsplash.com/random/400x532" alt="banner" srcset="">
+                                        </picture>
+                                        <picture class="img-on-hover">
+                                            <source media="(min-width:650px)" srcset="https://source.unsplash.com/random/400x534">
+                                            <source media="(min-width:465px)" srcset="https://source.unsplash.com/random/400x534">
+                                            <img  src="https://source.unsplash.com/random/400x535" alt="banner" srcset="">
+                                        </picture>
+                                    </div>
+                                    <div class="shop_item-tag">
+                                        <p class="title-tag">Body Wash</p>
+                                        <p class="price-tag">$50</p>
+                                    </div>
+                                </a>
+                            </div>
+                            
+                        </div>
+                    </div>
+                    </div>
                 </div>
             </div>
         </div>
