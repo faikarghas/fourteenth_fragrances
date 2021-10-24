@@ -216,10 +216,12 @@ main[page="home"]{
                 &:hover{
                     .prev-arrow{
                         left: 0;
+                        
                     }
 
                     .next-arrow{
                         right: 0;
+                        
                     }
 
                 }
@@ -238,10 +240,14 @@ main[page="home"]{
                 width: 80px;
                 height: 80px;
                 cursor: pointer;
-                background-color: #070707;
+                background-color: #333;
                 color: white;
                 font-size: 3rem;
                 transition: 0.2s all linear;
+                img{
+                    width: 30px;
+                    height: 30px;
+                }
             }
 
             .next-arrow{
@@ -256,10 +262,14 @@ main[page="home"]{
                 width: 80px;
                 height: 80px;
                 cursor: pointer;
-                background-color: #070707;
+                background-color: #333;
                 color: white;
                 font-size: 3rem;
                 transition: 0.2s all linear;
+                img{
+                    width: 30px;
+                    height: 30px;
+                }
             }
         }
     }

@@ -16,6 +16,15 @@
                 </div>
                 <div class="col-3">
                     <div class="header__top-bar--right">
+                        <div class="header__top-bar--right">
+                            <div class="lang_wrapper">
+                                <p class="btn-lang">Global <span><svg data-v-57a0bc08="" width="12" height="7" viewBox="0 0 12 7" xmlns="http://www.w3.org/2000/svg" class="fill-current ml-2"><path data-v-57a0bc08="" d="M9.60002 0L5.5 4.10001L1.40003 6.31809e-06L2.95639e-05 1.40001L5.5 7.00001L11.1 1.5L9.60002 0Z"></path></svg></span></p>
+                                <ul>
+                                    <li><a href="">IDN</a></li>
+                                    <li><a href="">AUS</a></li>
+                                </ul>
+                            </div>
+                        </div>
                     </div>
                 </div>
             </div>

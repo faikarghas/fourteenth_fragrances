@@ -2102,6 +2102,10 @@ $(document).ready(function (params) {
   $('.slider-detail-product').slick({
     dots: false
   });
+  $('.btn-lang').on('click', function (params) {
+    $('.lang_wrapper ul').toggleClass('active');
+    $(this).toggleClass('active');
+  });
 });
 
 /***/ }),

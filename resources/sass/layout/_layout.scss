@@ -9,8 +9,10 @@ header{
         left: 0;
         width: 100%;
         padding: 1rem 5rem;
-        min-height: 5rem;
+        height: 67px;
         z-index: 200;
+        display: flex;
+        align-items: center;
         &-bar--left{
             display: flex;
             align-items: center;
@@ -24,6 +26,10 @@ header{
         }
         &-bar--center{
             text-align: center;
+            height: 100%;
+            display: flex;
+            align-items: center;
+            justify-content: center;
             a{
                 text-decoration: none;
                 color: white;
@@ -31,10 +37,60 @@ header{
             }
         }
         &-bar--right{
+            display: flex;
+            align-items: center;
+            height: 100%;
+            .lang_wrapper{
+                display: inline-block;
+                position: relative;
+                .btn-lang{
+                    &.active{
+                        background-color: white;
+                        color: #070707;
+                        svg{
+                            fill: #070707;
+                        }
+                    }
+                }
+                p{
+                    color: white;
+                    font-size: 1.4rem;
+                    margin-bottom: 0;
+                    cursor: pointer;
+                    padding: 1rem;
+                    span{
+                        margin-left: 1rem;
+                        svg{
+                            fill: white;
+                        }
+                    }
+                }
+                ul{
+                    padding: 0;
+                    margin: 0;
+                    background-color: white;
+                    position: absolute;
+                    top: 100%;
+                    width: 100%;
+                    display: none;
+                    &.active{
+                        display: block;
+                    }
+                    li{
+                        list-style: none;
+                        padding: 1rem;
+                        a{
+                            text-decoration: none;
+                            color: #070707;
+                            font-size: 1.4rem;
+                        }
+                    }
+                }
+            }
         }
     }
     .header__banner{
-        margin-top: 5rem;
+        margin-top: 6.7rem;
         height: 100%;
         position: relative;
         img{
@@ -44,8 +100,8 @@ header{
         }
         &-text{
             position: absolute;
-            top: 40%;
-            left: 5rem;
+            top: 27%;
+            left: 11rem;
             transform: translateY(-50%);
             width: 350px;
             p{

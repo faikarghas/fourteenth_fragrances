@@ -16,6 +16,13 @@
                 </div>
                 <div class="col-3">
                     <div class="header__top-bar--right">
+                        <div class="lang_wrapper">
+                            <p class="btn-lang">Global <span><svg data-v-57a0bc08="" width="12" height="7" viewBox="0 0 12 7" xmlns="http://www.w3.org/2000/svg" class="fill-current ml-2"><path data-v-57a0bc08="" d="M9.60002 0L5.5 4.10001L1.40003 6.31809e-06L2.95639e-05 1.40001L5.5 7.00001L11.1 1.5L9.60002 0Z"></path></svg></span></p>
+                            <ul>
+                                <li><a href="">IDN</a></li>
+                                <li><a href="">AUS</a></li>
+                            </ul>
+                        </div>
                     </div>
                 </div>
             </div>
@@ -24,8 +31,6 @@
     <div class="header__banner">
         <img src="{{asset('images/banner-new.jpg')}}" alt="banner" srcset="" width="100%">
         <div class="header__banner-text">
-            <p>Introducing The Antioxidant Body Wash</p>
-            <h1>High Performance Botanical Skincare</h1>
             <a href="{{route('shop')}}" class="btn-black-fr">SHOP</a>
         </div>
     </div>
@@ -81,7 +86,7 @@
                         <span class="product-title">Detangling conditioner</span>
                         <p class="product-desc">Amino acid complex 1%</p>
                     </a>
-                    <a class="btn-quickview" href="">QUICKVIEW</a>
+                    <a href="{{route('shop-detail','test')}}" class="btn-quickview" href="">QUICKVIEW</a>
                 </div>
             </div>
             <div class="product__case">
@@ -95,7 +100,7 @@
                         <span class="product-title">Detangling conditioner</span>
                         <p class="product-desc">Amino acid complex 1%</p>
                     </a>
-                    <a class="btn-quickview" href="">QUICKVIEW</a>
+                    <a href="{{route('shop-detail','test')}}" class="btn-quickview" href="">QUICKVIEW</a>
                 </div>
             </div>
             <div class="product__case">
@@ -109,7 +114,7 @@
                         <span class="product-title">Detangling conditioner</span>
                         <p class="product-desc">Amino acid complex 1%</p>
                     </a>
-                    <a class="btn-quickview" href="">QUICKVIEW</a>
+                    <a href="{{route('shop-detail','test')}}" class="btn-quickview" href="">QUICKVIEW</a>
                 </div>
             </div>
         </div>
@@ -176,8 +181,12 @@
                                     <img src="https://source.unsplash.com/random/830x442" alt="banner" width="100%" srcset="">
                                     <img src="https://source.unsplash.com/random/830x443" alt="banner" width="100%" srcset="">
                                 </div>
-                                <div class="prev-arrow prev-slier-home-1"><</div>
-                                <div class="next-arrow next-slier-home-1">></div>
+                                <div class="prev-arrow prev-slier-home-1">
+                                    <img src="{{asset('images/left_arrow.svg')}}" alt="">
+                                </div>
+                                <div class="next-arrow next-slier-home-1">
+                                    <img src="{{asset('images/right_arrow.svg')}}" alt="">
+                                </div>
                             </div>
                             <div class="dots_custom dts-1"></div>
                             <br>
