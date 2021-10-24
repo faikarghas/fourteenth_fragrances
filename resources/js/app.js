@@ -11,9 +11,9 @@ $(document).ready(function (params) {
     })
 
     ///////////////////////
-    let item_percentagep5 = 100 / 2
+    let item_percentagep5 = 100 / 3
 
-    for (let i = 0; i < 2; i++) {
+    for (let i = 0; i < 3; i++) {
         $('.dts-1').append(`<div class="dots_custom-item dts-1-item" style="width:${item_percentagep5}%"></div>`)
     }
 
@@ -29,8 +29,19 @@ $(document).ready(function (params) {
 
     $('.slider-home-1').slick({
         dots:false,
-        infinite: false
+        infinite: false,
+        prevArrow: $('.prev-slier-home-1'),
+        nextArrow: $('.next-slier-home-1'),
+        asNavFor: '.slider-home-1-text'
     })
+
+    $('.slider-home-1-text').slick({
+        slidesToShow: 1,
+        slidesToScroll: 1,
+        arrows: false,
+        fade: true,
+        asNavFor: '.slider-home-1'
+    });
 
     $('.slider-detail-product').slick({
         dots: false

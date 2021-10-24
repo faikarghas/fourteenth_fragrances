@@ -11,7 +11,7 @@
                 </div>
                 <div class="col-6">
                     <div class="header__top-bar--center">
-                        <a href="{{route('home')}}">Fourteenth Fragrances</a>
+                        <a href="{{route('home')}}">FOURTEENTH</a>
                     </div>
                 </div>
                 <div class="col-3">
@@ -22,11 +22,11 @@
         </div>
     </div>
     <div class="header__banner">
-        <img src="https://source.unsplash.com/random/1200x800" alt="banner" srcset="" width="100%">
+        <img src="{{asset('images/banner-new.jpg')}}" alt="banner" srcset="" width="100%">
         <div class="header__banner-text">
             <p>Introducing The Antioxidant Body Wash</p>
             <h1>High Performance Botanical Skincare</h1>
-            <a class="btn-black-fr">SHOP</a>
+            <a href="{{route('shop')}}" class="btn-black-fr">SHOP</a>
         </div>
     </div>
 
@@ -53,7 +53,7 @@
             <div class="content_wrapper-left">
                 <div class="content-text">
                     <p class="content-title">High Performance Botanical Skincare</p>
-                    <a class="btn-black-fr">SHOP</a>
+                    <a href="{{route('shop')}}" class="btn-black-fr">SHOP</a>
                     <img src="https://source.unsplash.com/random/300x357" alt="banner" srcset="" width="100%">
                 </div>
             </div>
@@ -72,12 +72,12 @@
         <div class="content_wrapper">
             <div class="product__case">
                 <div class="product__case-img">
-                    <a href="">
+                    <a href="{{route('shop-detail','test')}}">
                         <img src="https://source.unsplash.com/random/400x466" alt="banner" srcset="">
                     </a>
                 </div>
                 <div class="product__case-title">
-                    <a href="">
+                    <a href="{{route('shop-detail','test')}}">
                         <span class="product-title">Detangling conditioner</span>
                         <p class="product-desc">Amino acid complex 1%</p>
                     </a>
@@ -86,12 +86,12 @@
             </div>
             <div class="product__case">
                 <div class="product__case-img">
-                    <a href="">
+                    <a href="{{route('shop-detail','test')}}">
                         <img src="https://source.unsplash.com/random/400x467" alt="banner" srcset="">
                     </a>
                 </div>
                 <div class="product__case-title">
-                    <a href="">
+                    <a href="{{route('shop-detail','test')}}">
                         <span class="product-title">Detangling conditioner</span>
                         <p class="product-desc">Amino acid complex 1%</p>
                     </a>
@@ -100,12 +100,12 @@
             </div>
             <div class="product__case">
                 <div class="product__case-img">
-                    <a href="">
+                    <a href="{{route('shop-detail','test')}}">
                         <img src="https://source.unsplash.com/random/400x468" alt="banner" srcset="">
                     </a>
                 </div>
                 <div class="product__case-title">
-                    <a href="">
+                    <a href="{{route('shop-detail','test')}}">
                         <span class="product-title">Detangling conditioner</span>
                         <p class="product-desc">Amino acid complex 1%</p>
                     </a>
@@ -140,14 +140,18 @@
                     <div class="col-12 col-md-6">
                         <div class="img_wrapper">
                             <a href="">
+                                <p class="text-top">Lorem Ipsum Dolor</p>
                                 <img src="https://source.unsplash.com/random/620x650" alt="banner" srcset="">
+                                <p class="text-bottom">Lorem Ipsum Dolor</p>
                             </a>
                         </div>
                     </div>
                     <div class="col-12 col-md-6">
                         <div class="img_wrapper">
                             <a href="">
-                                <img src="https://source.unsplash.com/random/620x650" alt="banner" srcset="">
+                                <p class="text-top">Lorem Ipsum Dolor</p>
+                                <img src="https://source.unsplash.com/random/620x651" alt="banner" srcset="">
+                                <p class="text-bottom">Lorem Ipsum Dolor</p>
                             </a>
                         </div>
                     </div>
@@ -162,16 +166,28 @@
                     <div class="col-md-4">
                         <h3>Stockist</h3>
                         <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Reiciendis, debitis. Dolorem doloribus ut temporibus aliquam corporis fugiat perspiciatis quia modi.</p>
-                        <a class="btn-learn-more" href="">Learn More</a>
+                        <a class="btn-learn-more" href="">Find nearby store</a>
                     </div>
                     <div class="col-md-8">
                         <div class="home__slider_wrapper">
-                            <div class="slider-home-1">
-                                <img src="https://source.unsplash.com/random/830x442" alt="banner" width="100%" srcset="">
-                                <img src="https://source.unsplash.com/random/830x442" alt="banner" width="100%" srcset="">
-                                <img src="https://source.unsplash.com/random/830x442" alt="banner" width="100%" srcset="">
+                            <div class="slider_wr position-relative">
+                                <div class="slider-home-1">
+                                    <img src="https://source.unsplash.com/random/830x441" alt="banner" width="100%" srcset="">
+                                    <img src="https://source.unsplash.com/random/830x442" alt="banner" width="100%" srcset="">
+                                    <img src="https://source.unsplash.com/random/830x443" alt="banner" width="100%" srcset="">
+                                </div>
+                                <div class="prev-arrow prev-slier-home-1"><</div>
+                                <div class="next-arrow next-slier-home-1">></div>
                             </div>
                             <div class="dots_custom dts-1"></div>
+                            <br>
+                            <br>
+                            <br>
+                            <div class="slider-home-1-text">
+                                <p>Aesop Hollywood Road</p>
+                                <p>Aesop Town Plaza</p>
+                                <p>AEON Mall BSD</p>
+                            </div>
                         </div>
                     </div>
                 </div>

@@ -11,7 +11,7 @@
                 </div>
                 <div class="col-6">
                     <div class="header__top-bar--center">
-                        <a href="{{route('home')}}">Fourteenth Fragrances</a>
+                        <a href="{{route('home')}}">FOURTEENTH</a>
                     </div>
                 </div>
                 <div class="col-3">
@@ -60,7 +60,7 @@
                     <div class="container-fluid g-0">
                         <div class="row g-0">
                             <div class="col-12 col-md-4">
-                                <a class="shop_item">
+                                <a href="{{route('shop-detail','test')}}" class="shop_item">
                                     <div class="shop_item-img">
                                         <picture class="img-display">
                                             <source media="(min-width:650px)" srcset="https://source.unsplash.com/random/400x531">
@@ -80,7 +80,7 @@
                                 </a>
                             </div>
                             <div class="col-12 col-md-4">
-                                <a class="shop_item">
+                                <a href="{{route('shop-detail','test')}}" class="shop_item">
                                     <div class="shop_item-img">
                                         <picture class="img-display">
                                             <source media="(min-width:650px)" srcset="https://source.unsplash.com/random/400x539">
@@ -100,7 +100,7 @@
                                 </a>
                             </div>
                             <div class="col-12 col-md-4">
-                                <a class="shop_item">
+                                <a href="{{route('shop-detail','test')}}" class="shop_item">
                                     <div class="shop_item-img">
                                         <picture class="img-display">
                                             <source media="(min-width:650px)" srcset="https://source.unsplash.com/random/400x537">
@@ -120,7 +120,7 @@
                                 </a>
                             </div>
                             <div class="col-12 col-md-4">
-                                <a class="shop_item">
+                                <a href="{{route('shop-detail','test')}}" class="shop_item">
                                     <div class="shop_item-img">
                                         <picture class="img-display">
                                             <source media="(min-width:650px)" srcset="https://source.unsplash.com/random/400x531">
@@ -139,7 +139,6 @@
                                     </div>
                                 </a>
                             </div>
-                            
                         </div>
                     </div>
                     </div>

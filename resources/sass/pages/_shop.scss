@@ -96,6 +96,7 @@ main[page="detail-product"]{
             padding: 6rem 0rem 6rem 10rem;
             h1{
                 margin-bottom: 3rem;
+                font-size: 2.7rem;
             }
             .price-tag{
                 font-size: 1.4rem;
@@ -181,6 +182,107 @@ main[page="detail-product"]{
             display: flex;
             align-items: flex-end;
             justify-content: end;
+        }
+    }
+
+    .section__third{
+        margin: 5rem;
+        padding: 4rem 0;
+        border-top: 1px solid black; 
+        border-bottom: 1px solid black; 
+        .content__wrapper{
+            width: 800px;
+        }
+        p{
+            margin-bottom: 0;
+            &:first-child{
+                margin-bottom:3rem;
+            }
+        }
+        em{
+            font-size: 1.6rem;
+        }
+    }
+
+    .rel__products{
+        padding: 10rem 5rem 5rem 5rem;
+        h2{
+            font-size: 2.7rem;
+        }
+        .shop__header{
+            text-align: center;
+            ul{
+                padding: 5.4rem 0;
+                margin: 0;
+                border-bottom: 1px solid #070707;
+                li{
+                    list-style: none;
+                    display: inline-block;
+                    padding: 0 2.5rem;
+                    border-right: 1px solid #070707;
+                    &:last-child{
+                        border: none;
+                    }
+                    a{
+                        text-decoration: none;
+                        color: #070707;
+                    }
+                }
+            }
+        }
+        .shop__list{
+            margin-top: 4rem;
+            margin-left: -1.8rem;
+            margin-right: -1.8rem;
+            .shop_item{
+                margin: 0 1.8rem;
+                position: relative;
+                display: block;
+                text-decoration: none;
+                &:hover{
+                    .img-on-hover{
+                        visibility: visible;
+                        opacity: 1;
+                    }
+
+                }
+                &-img{
+                    height: 532px;
+                    position: relative;
+                    picture{
+                        height: 100%;
+                        img{
+                            width: 100%;
+                            height: 100%;
+                            object-fit: cover;
+                        }
+                    }
+                    .img-display{
+
+                    }
+                    .img-on-hover{
+                        position: absolute;
+                        top: 0;
+                        left: 0;
+                        width: 100%;
+                        height: 100%;
+                        visibility: hidden;
+                        opacity: 0;
+                        transition: 0.5s all linear;
+                    }
+                }
+                &-tag{
+                    text-align: center;
+                    padding: 2rem;
+                    .title-tag{
+                        font-size: 1.6rem;
+                    }
+                    .price-tag{
+                        font-size: 1.4rem;
+                        margin-bottom: 0;
+                    }
+                }
+            }
         }
     }
 }

@@ -34,8 +34,8 @@
             <div class="footer-sitemap">
                 <div class="site">
                     <ul>
-                        <li><a href="">HOME</a></li>
-                        <li><a href="">SHOP</a></li>
+                        <li><a href="{{route('home')}}">HOME</a></li>
+                        <li><a href="{{route('shop')}}">SHOP</a></li>
                         <li><a href="">LEARN</a></li>
                     </ul>
                     <ul class="w-title">

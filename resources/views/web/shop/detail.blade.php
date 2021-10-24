@@ -11,7 +11,7 @@
                 </div>
                 <div class="col-6">
                     <div class="header__top-bar--center">
-                        <a href="{{route('home')}}">Fourteenth Fragrances</a>
+                        <a href="{{route('home')}}">FOURTEENTH</a>
                     </div>
                 </div>
                 <div class="col-3">
@@ -99,6 +99,118 @@
                 <div class="col-5">
                     <div class="product__img">
                         <img  src="https://source.unsplash.com/random/400x425" alt="banner" srcset="">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="section__third">
+        <div class="container-fluid g-0">
+            <div class="row g-0">
+                <div class="col-12 d-flex justify-content-center">
+                    <div class="content__wrapper text-center">
+                        <p>★★★★★</p>
+                        <p>“I really enjoy this body wash and its light scent. It leaves my skin smooth and just the right amount of moisture. My skin is very dry and it helps more than others I’ve tried in the past!”</p>
+                        <br>
+                        <br>
+                        <em>Sam F.</em>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="rel__products">
+        <div class="container-fluid g-0">
+            <div class="row g-0">
+                <div class="col-12">
+                    <h2>Related Products</h2>
+                </div>
+                <div class="col-12">
+                    <div class="shop__list">
+                    <div class="container-fluid g-0">
+                        <div class="row g-0">
+                            <div class="col-12 col-md-4">
+                                <a href="{{route('shop-detail','test')}}" class="shop_item">
+                                    <div class="shop_item-img">
+                                        <picture class="img-display">
+                                            <source media="(min-width:650px)" srcset="https://source.unsplash.com/random/400x531">
+                                            <source media="(min-width:465px)" srcset="https://source.unsplash.com/random/400x531">
+                                            <img  src="https://source.unsplash.com/random/400x531" alt="banner" srcset="">
+                                        </picture>
+                                        <picture class="img-on-hover">
+                                            <source media="(min-width:650px)" srcset="https://source.unsplash.com/random/400x534">
+                                            <source media="(min-width:465px)" srcset="https://source.unsplash.com/random/400x534">
+                                            <img  src="https://source.unsplash.com/random/400x534" alt="banner" srcset="">
+                                        </picture>
+                                    </div>
+                                    <div class="shop_item-tag">
+                                        <p class="title-tag">Body Wash</p>
+                                        <p class="price-tag">$50</p>
+                                    </div>
+                                </a>
+                            </div>
+                            <div class="col-12 col-md-4">
+                                <a href="{{route('shop-detail','test')}}" class="shop_item">
+                                    <div class="shop_item-img">
+                                        <picture class="img-display">
+                                            <source media="(min-width:650px)" srcset="https://source.unsplash.com/random/400x539">
+                                            <source media="(min-width:465px)" srcset="https://source.unsplash.com/random/400x531">
+                                            <img  src="https://source.unsplash.com/random/400x531" alt="banner" srcset="">
+                                        </picture>
+                                        <picture class="img-on-hover">
+                                            <source media="(min-width:650px)" srcset="https://source.unsplash.com/random/400x533">
+                                            <source media="(min-width:465px)" srcset="https://source.unsplash.com/random/400x534">
+                                            <img  src="https://source.unsplash.com/random/400x534" alt="banner" srcset="">
+                                        </picture>
+                                    </div>
+                                    <div class="shop_item-tag">
+                                        <p class="title-tag">Body Wash</p>
+                                        <p class="price-tag">$50</p>
+                                    </div>
+                                </a>
+                            </div>
+                            <div class="col-12 col-md-4">
+                                <a href="{{route('shop-detail','test')}}" class="shop_item">
+                                    <div class="shop_item-img">
+                                        <picture class="img-display">
+                                            <source media="(min-width:650px)" srcset="https://source.unsplash.com/random/400x537">
+                                            <source media="(min-width:465px)" srcset="https://source.unsplash.com/random/400x531">
+                                            <img  src="https://source.unsplash.com/random/400x535" alt="banner" srcset="">
+                                        </picture>
+                                        <picture class="img-on-hover">
+                                            <source media="(min-width:650px)" srcset="https://source.unsplash.com/random/400x533">
+                                            <source media="(min-width:465px)" srcset="https://source.unsplash.com/random/400x534">
+                                            <img  src="https://source.unsplash.com/random/400x537" alt="banner" srcset="">
+                                        </picture>
+                                    </div>
+                                    <div class="shop_item-tag">
+                                        <p class="title-tag">Body Wash</p>
+                                        <p class="price-tag">$50</p>
+                                    </div>
+                                </a>
+                            </div>
+                            <div class="col-12 col-md-4">
+                                <a href="{{route('shop-detail','test')}}" class="shop_item">
+                                    <div class="shop_item-img">
+                                        <picture class="img-display">
+                                            <source media="(min-width:650px)" srcset="https://source.unsplash.com/random/400x531">
+                                            <source media="(min-width:465px)" srcset="https://source.unsplash.com/random/400x531">
+                                            <img  src="https://source.unsplash.com/random/400x532" alt="banner" srcset="">
+                                        </picture>
+                                        <picture class="img-on-hover">
+                                            <source media="(min-width:650px)" srcset="https://source.unsplash.com/random/400x534">
+                                            <source media="(min-width:465px)" srcset="https://source.unsplash.com/random/400x534">
+                                            <img  src="https://source.unsplash.com/random/400x535" alt="banner" srcset="">
+                                        </picture>
+                                    </div>
+                                    <div class="shop_item-tag">
+                                        <p class="title-tag">Body Wash</p>
+                                        <p class="price-tag">$50</p>
+                                    </div>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
                     </div>
                 </div>
             </div>
