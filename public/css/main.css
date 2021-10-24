@@ -268,6 +268,9 @@ input:focus-visible {
   font-weight: 100;
   text-decoration: none;
 }
+.btn-black-fr:hover {
+  color: white;
+}
 
 @font-face {
   font-family: "Futura-Bold";
