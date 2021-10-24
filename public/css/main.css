@@ -272,6 +272,17 @@ input:focus-visible {
   color: white;
 }
 
+.bread {
+  margin-bottom: 4rem;
+}
+.bread a {
+  text-decoration: none;
+  color: #070707;
+}
+.bread span {
+  margin: 0 1rem;
+}
+
 @font-face {
   font-family: "Futura-Bold";
   src: url("/fonts/Futura-Bold.woff") format("woff");
@@ -1208,6 +1219,7 @@ main[page=detail-product] .section__first .product-desc .quantity input {
   border: 1px solid lightgray;
   font-size: 1.6rem;
   padding: 2rem;
+  background-color: white;
 }
 main[page=detail-product] .section__first .product-desc .btn-add-to-cart {
   width: 100%;

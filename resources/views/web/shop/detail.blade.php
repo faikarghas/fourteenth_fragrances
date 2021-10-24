@@ -49,6 +49,7 @@
 @section('main')
 <main page="detail-product">
     <section class="section__first">
+        <div class="bread"><a href="{{route('shop')}}">Shop</a><span>.</span><a href="">Body Wash</a></div>
         <div class="container-fluid g-0">
             <div class="row g-0">
                 <div class="col-6">
@@ -70,7 +71,7 @@
                         </ul>
                         <div class="quantity">
                             <label for="qty">Quantity:</label>
-                            <input id="qty" type="number">
+                            <input value="1"  id="qty" type="number">
                         </div>
                         <button class="btn-add-to-cart">Add To Cart</button>
                     </div>
