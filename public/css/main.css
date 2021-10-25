@@ -280,7 +280,7 @@ input:focus-visible {
   color: #070707;
 }
 .bread span {
-  margin: 0 1rem;
+  margin: 0 0.5rem;
 }
 
 @font-face {
